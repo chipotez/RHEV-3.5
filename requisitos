@@ -1,0 +1,5 @@
+# Este documento no cubre a detalle el proceso de instalacion de RHEV 3.5, y solo pretende ser una guía de apoyo para la --
+# implementación base de una POC, por lo cual no necesariamente cubre las mejores practicas del producto.
+
+hostnamectl set-hostname rhevm.domain.pocs.com
+subscription-manager register --username=<user> --password=<password> --auto-attach 
